@@ -1,7 +1,13 @@
-# Impact through network analysis 
+#'@title: Class: Impact through network analysis 
+#'@author: R Alcalá
+#'@date: Fall 2019 
+#'@email: ralcala@ufl.edu
+
 # Code for adding weights to nodes and links
 #      and adding colors
 
+#--- Install libraries they are not installed.
+#?install.packages() # read more about installing packages
 
 #--- Loading libraries 
 library(igraph)
@@ -10,12 +16,14 @@ library(scales)
 
 
 #--- Simulating data
-set.seed(3)
+set.seed(3) # setting seed for reproducibility 
+
 samp <- data.frame(from= paste("From", sample(5, 28, replace = T), sep = ""),
                    to = paste("To", sample(5, 28, replace = T), sep = ""),
                    values = sample(100, 28, replace = T))
 samp
 
+#--- Tidying data with dplyr::
 # If you have multiple entries, we can summarize it with dplyr
 samp2 <- as_tibble(samp) %>% 
          group_by(from, to) %>% 
@@ -29,29 +37,37 @@ plot(g) # plot without attributes
 #---- Assigning node size and link width atributes
 # link width from the 3rd column of the original matrix (samp2) 
 E(g)$width <- log(as.numeric(E(g)$sum)) # log the values for visual appreciation
+
 # calculating node degree  (times a constant to make the node bigger) 
 V(g)$size <- degree(g)*8 # adding node degree as a node attribute
+
 #Plot node size= node degree; link width= values
 plot(g)
+
 #--
 # calculating betweeness centrality 
 V(g)$size <- betweenness(g) # adding betweeness centrality as a node attribute
-#Plot node size= betweeness centrality; link width= values
-plot(g)
-#--
-# calculating node strength  (times a constant to make the node bigger)
-V(g)$size <- strength(g)*8 # adding node strenght as a node attribute
+
 #Plot node size= betweeness centrality; link width= values
 plot(g)
 
+#--
+# calculating node strength  (times a constant to make the node bigger)
+V(g)$size <- strength(g)*8 # adding node strenght as a node attribute
+
+#Plot node size= betweeness centrality; link width= values
+plot(g)
 
 #---- Assigning colors to nodes by node size
 # creating a palette function 
 rcPal <- colorRampPalette(c("white","red")) # you can replace the colorst to whateber n
+
 # check list of color available in R https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/colorPaletteCheatsheet.pdf
+
 # specifying how to cut the range of values with cut  
 V(g)$color <- rcPal(4)[cut(V(g)$size, breaks = 4)] # adding colors to the nodes
-show_col(unique(V(g)$color))
+show_col(unique(V(g)$color)) # show colors to plot
+# plotting network
 plot(g)
 
 #---- Assigning colors to nodes by node size threshold
@@ -60,7 +76,7 @@ rcPal <- colorRampPalette(c("white","plum1", "red3"))
 cond <- V(g)$size
 cond[cond<30] <- 0 # setting the threshold 
 cond
-n <- 20#length(unique(cond))
+n <- 20 #length(unique(cond))
 V(g)$color <- rcPal(n)[cut(cond, breaks = n)] # adding colors to the nodes above the threshold
 #show_col(unique(V(g)$color))
 plot(g)
@@ -85,7 +101,4 @@ metadat <- as_tibble(
 
 V(g)$color <- metadat$color
 plot(g)
-
-
-
 
