@@ -1,6 +1,5 @@
 library(igraph)
 library(fuzzySim)
-Names	<- c("Ricardo",	
 
 Names	<- c("Ricardo",	
            "Robert",
