@@ -20,8 +20,8 @@ R examples of the classes and workshops:
 
 
 ```
-Classes at UF were thougth by Dr. Karen A. Garrett @[GarrettLab](https://www.garrettlab.com/)
-Code contributors: Kelsey Anderson, Ravin Poudel, Yanru Xing, and Karen A. Garrett
+Classes at UF were thougth by Dr. Karen A. Garrett @[GarrettLab](https://www.garrettlab.com/) 
+Contributors: Ricardo I Alcala, Kelsey Anderson, Ravin Poudel, Yanru Xing, and Karen A. Garrett
 ```
 
 
