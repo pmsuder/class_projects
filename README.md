@@ -14,7 +14,7 @@ R examples of the classes and workshops:
    
 
 
-This is a repository with code I developed for classes and workshops with help of contributors, Kelsey Anderson, Ravin Poudel, Yanru Xing, and Karen A. Garrett
+This is a repository with code I developed for classes and workshops with help of contributors: Kelsey Anderson, Ravin Poudel, Yanru Xing, and Karen A. Garrett
 
 <Classes at UF were thougth by Dr. Karen A. Garrett @[GarrettLab](https://www.garrettlab.com/)>
 
