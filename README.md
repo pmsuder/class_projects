@@ -3,7 +3,7 @@
 ### University of Florida, Plant Pathology
 
 R examples of the classes and workshops:
- - Intro to R 
+ - [Intro to R](https://github.com/ricardoi/class_projects/blob/main/Intro_to_R_part1.R) 
  - Network examples 
   - One mode networks
   - Adding attributes
