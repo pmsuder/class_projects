@@ -2,7 +2,7 @@
 ## A repository of code for classes and other examples in R
 ### University of Florida, Plant Pathology
 
-I participated as a Teaching Assistant (TA) in courses of network analysis, epidemiology and data sciences, also I have taught in workshops imparted by the @[GarrettLab](https://www.garrettlab.com/), and [CABANA](https://www.ebi.ac.uk/training/events/2020/cabana-workshop-ngs-analysis-applied-virome-sequencing-agricultural-systems).
+I participated as a Teaching Assistant (TA) in courses of network analysis, epidemiology and data sciences, also I have taught in workshops developed by the @[GarrettLab](https://www.garrettlab.com/), and [CABANA](https://www.ebi.ac.uk/training/events/2020/cabana-workshop-ngs-analysis-applied-virome-sequencing-agricultural-systems).
 
 The code was generated as a collaborative effort by members of the Garret lab, with contributions in different part of the code and datasets. 
 
