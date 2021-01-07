@@ -62,9 +62,10 @@ for ( in   ){
 # but what if you want to get the means for each species, we do a bigger loop.
 # First, we need to create some empty vector and the names of the Species
 
-results = temp.means = temp.spp = list() # empty list to store objects [list are objects that can contain objects]
+results = temp.means = temp.spp = temp = list() # empty list to store objects [list are objects that can contain objects]
 spp <- unique(iris$Species) # getting the species names
 names <- colnames(iris)[-5] # saving the names of the numeric columns, removing position 5 which is the species column
+
 
 for (i in 1:3){ 
   for (j in 1:4){
