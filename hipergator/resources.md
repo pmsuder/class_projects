@@ -4,7 +4,8 @@ Commands to get the resources of the @garrettlab
 
 Showing user groups for ralcala
 ```
-showAssoc ralcala
+$ showAssoc ralcala
+
 # User              Account       Def Acct        Def QOS        QOS
 #------------------ -------------- -------------- -------------- ----------------------------------------
 #ralcala            plantpath      garrett        garrett        plantpath,plantpath-b
@@ -13,14 +14,16 @@ showAssoc ralcala
 ```
 Regular resources
 ```
-showQos garrett
+$ showQos garrett
+
 # Name                          Descr                                       GrpTRES                 GrpCPUs
 #-------------------- ------------------------------ --------------------------------------------- --------
 #garrett              garrett qos                    cpu=10,gres/gpu=0,mem=36000M                        10
 ```
 Burst resources
 ```
-showQos garrett-b
+$ showQos garrett-b
+
 # Name                          Descr                                       GrpTRES                 GrpCPUs
 #-------------------- ------------------------------ --------------------------------------------- --------
 #garrett-b            garrett burst qos              cpu=90,gres/gpu=0,mem=324000M                       90
@@ -28,7 +31,8 @@ showQos garrett-b
 
 Additional base priority run time and limits associated to garret QOSes
 ```
-sacctmgr show qos format="name%-20,Description%-30,priority,maxwall" garrett
+$ sacctmgr show qos format="name%-20,Description%-30,priority,maxwall" garrett
+
 # Name                          Descr   Priority     MaxWall
 #-------------------- ------------------------------ ---------- -----------
 #garrett              garrett qos                         36000 31-00:00:00
@@ -36,7 +40,7 @@ sacctmgr show qos format="name%-20,Description%-30,priority,maxwall" garrett
 
 
 ```
-slurmInfo epi
+$ slurmInfo epi
 
 ----------------------------------------------------------------------
 Allocation summary:    Time Limit             Hardware Resources
@@ -58,7 +62,8 @@ HiPerGator Utilization
 ```
 
 ```
-slurmInfo plantpath
+$ slurmInfo plantpath
+
 ----------------------------------------------------------------------
 Allocation summary:    Time Limit             Hardware Resources
    Investment QOS           Hours          CPU     MEM(GB)     GPU
@@ -69,7 +74,7 @@ CPU/MEM Usage:              Running          Pending        Total
                          CPU  MEM(GB)    CPU  MEM(GB)    CPU  MEM(GB)
 ----------------------------------------------------------------------
 Investment (plantpath):    12       64     0        0    12       64
-    Burst* (plantpath-b):     4       10     0        0     4       10
+  Burst* (plantpath-b):     4       10     0        0     4       10
 ----------------------------------------------------------------------
 HiPerGator Utilization
               CPU: Used (%) / Total         MEM(GB): Used (%) / Total
@@ -77,4 +82,14 @@ HiPerGator Utilization
        Total :  36191 (76%) / 47320     108024856 (54%) /   198437000
 ----------------------------------------------------------------------
 * Burst QOS uses idle cores at low priority with a 4-day time limit
+```
+Allocating resources in a developmental session
+```
+$ srun --mem=126gb --pty bash -i
+srun: job 123456 queued and waiting for resources
+```
+The Garrett lab has NCU resources that can allocate large memory resources
+```
+srun -p bigmem --mem=400gb --time=96:00:00 --qos=$GROUP-b --pty bash -i
+srun: job 654321 queued and waiting for resources
 ```
