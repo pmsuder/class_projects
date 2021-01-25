@@ -2,6 +2,7 @@
 
 Commands to get the resources of the @garrettlab
 
+Showing user groups for ralcala
 ```
 showAssoc ralcala
 # User              Account       Def Acct        Def QOS        QOS
@@ -10,12 +11,15 @@ showAssoc ralcala
 #ralcala            garrett        garrett        garrett        garrett,garrett-b
 #ralcala            epi            garrett        garrett        epi,epi-b,garrett
 ```
-
+Regular resources
 ```
 showQos garrett
 # Name                          Descr                                       GrpTRES                 GrpCPUs
 #-------------------- ------------------------------ --------------------------------------------- --------
 #garrett              garrett qos                    cpu=10,gres/gpu=0,mem=36000M                        10
+```
+Burst resources
+```
 showQos garrett-b
 # Name                          Descr                                       GrpTRES                 GrpCPUs
 #-------------------- ------------------------------ --------------------------------------------- --------
