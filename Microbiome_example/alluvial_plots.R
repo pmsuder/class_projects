@@ -31,13 +31,13 @@ datc <- datc %>%
                     )
 # alluvla plot 
 
-alluvial(datc[,c(1,2,4)], freq=datc$abundance,
+alluvial(datc[,c(1,2,3, 4)], freq=datc$abundance,
          #hide = datc$length == 0,
          col = datc$cols,
          border = datc$cols, 
          alpha = 0.7,
          blocks = FALSE,
-         ordering = list(NULL, NULL, order(as.factor(datc$Phylum))), 
+         ordering = list(NULL, NULL,NULL, order(as.factor(datc$Phylum))), 
                 # change NULL to order them
          cex =0.8
         )
