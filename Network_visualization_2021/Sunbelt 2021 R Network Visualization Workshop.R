@@ -58,6 +58,16 @@
 # install.packages("geosphere")
  
 
+#-------- loading libraries --------
+
+# library("igraph") 
+# library("network") 
+# library("sna")
+# library("ggraph")
+# library("visNetwork")
+# library("threejs")
+# library("networkD3")
+# library("ndtv")
 
 
 # ================ 1. Colors in R plots ================ 
@@ -131,7 +141,7 @@ plot(x=10:1, y=1:10, pch=19, cex=10, col=palf(10))
 # Download an archive with the data files from http://bit.ly/sunbelt-2021
 
 # Clear your workspace by removing all objects returned by ls():
-rm(list = ls()) 
+# rm(list = ls()) 
  
 # Load the 'igraph' library:
 library("igraph")
@@ -197,8 +207,6 @@ plot(net, edge.arrow.size=.4,vertex.label=NA)
  
 
 # -------~~ DATASET 2: matrix  --------
-
- 
 # Read in the data:
 nodes2 <- read.csv("https://kateto.net/workshops/data/Dataset2-Media-User-Example-NODES.csv", header=T, as.is=T)
 links2 <- read.csv("https://kateto.net/workshops/data/Dataset2-Media-User-Example-EDGES.csv", header=T, row.names=1)
@@ -260,7 +268,7 @@ V(net)$color <- colrs[V(net)$media.type]
 
 
 # Compute node degrees (#links) and use that to set node size:
-deg <- degree(net, mode="all")
+deg <- igraph::degree(net, mode="all")
 V(net)$size <- deg*3
 # Alternatively, we can set node size based on audience size:
 V(net)$size <- V(net)$audience.size*0.7
@@ -512,7 +520,8 @@ plot(net.sp, layout=layout_with_kk)
 # showing the communities within it.
 
 # Community detection (by optimizing modularity over partitions):
-clp <- cluster_optimal(net)
+clp <- cluster_optimal(net) # cluster optimal is not supported in Mac
+clp <- cluster_walktrap(net) # example with cluster walktrap
 class(clp)
 clp$membership
 
@@ -601,7 +610,7 @@ plot(net, mark.groups=list(c(1,4,5,8), c(15:17)),
 
 # R and igraph offer interactive plotting capabilities
 # (mostly helpful for small networks)
-
+library(tcltk2)
 tkid <- tkplot(net) #tkid is the id of the tkplot
 
 l <- tkplot.getcoords(tkid) # grab the coordinates from tkplot
