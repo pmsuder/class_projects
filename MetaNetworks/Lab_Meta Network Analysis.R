@@ -62,12 +62,12 @@ for (i in 1:K) {
   tab <- rbind(tab, out)
 }
 rownames(tab) <- rownames(est)
-tab
+tab # paper results for fixed effects
 write.csv(tab, "tab1.csv", na="", row.names = TRUE)
 
 summary(umeta[[10]])
 
-
+###################################################################
 ## Random effects
 umeta <- list()
 K <- nrow(theta)
@@ -77,7 +77,9 @@ for (i in 1:K) {
   out <- c(t(summary(umeta[[i]])$coef[1,c(1,2,4)]), summary(umeta[[i]])$qstat$pvalue)
   tab2 <- rbind(tab2, out)
 }
+
 rownames(tab2) <- rownames(est)
+colnames(tab2) <- c("Estimated", "Std. Error", "Pr(>|x|)", "Q value")
 tab2
 write.csv(tab2, "tab2.csv", na="", row.names = TRUE)
 
@@ -93,4 +95,20 @@ mvm1 <- mvmeta(theta~1, S=cov, method="fixed")
 ### Random effects
 mvm2 <- mvmeta(theta~1, S=cov, method="reml")
 
+# If you want to pick two variables for multivariate meta-regression
+theta <- theta[c(2,3),]
+cov1 <- cov1[c(2,3),]
+cov2 <- cov2[c(2,3),]
 
+### Fixed effects
+mvm1 <- mvmeta(theta~1, S=cov, method="fixed")
+
+### Random effects
+mvm2 <- mvmeta(theta~1, S=cov, method="reml")
+
+
+### if you want to include netwokr level predictors (= moderators: they moderate the difference between networks, predicting the network )
+### Suppose you have ten networks: X should have ten values, each correspond to 1 network
+### Once you import these predictors into R. 
+### 
+umeta[[i]] <- mvmeta(theta[i,], ~ X, S=var[i,], method = "reml")
