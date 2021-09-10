@@ -1,0 +1,337 @@
+Bacteria,prevelance,treatment
+Acinetobacter sp,10,pupae 0gy-S
+Acinetobacter sp,10,pupae-0gy-NS
+Acinetobacter sp,10,pupae-50gy-S
+Acinetobacter sp,10,pupae-50gy-NS
+Acinetobacter sp,10,pupae-100gy-S
+Acinetobacter sp,10,pupae-100gy-NS
+Acinetobacter sp,10,Water
+Acinetobacter sp,10,Slurry
+Acinetobacter sp,10,adult 0gy-S
+Acinetobacter sp,10,adult-0gy-NS
+Acinetobacter sp,10,adult-50gy-S
+Acinetobacter sp,3,adult-50gy-NS
+Acinetobacter sp,10,adult-100gy-S
+Acinetobacter sp,0,adult-100gy-NS
+Bacillus pumilus,12,pupae 0gy-S
+Bacillus pumilus,12,pupae-0gy-NS
+Bacillus pumilus,12,pupae-50gy-S
+Bacillus pumilus,12,pupae-50gy-NS
+Bacillus pumilus,12,pupae-100gy-S
+Bacillus pumilus,12,pupae-100gy-NS
+Bacillus pumilus,5,Water
+Bacillus pumilus,15,Slurry
+Bacillus pumilus,15,adult 0gy-S
+Bacillus pumilus,15,adult-0gy-NS
+Bacillus pumilus,15,adult-50gy-S
+Bacillus pumilus,4,adult-50gy-NS
+Bacillus pumilus,15,adult-100gy-S
+Bacillus pumilus,0,adult-100gy-NS
+Cedecea lapagei,30,pupae 0gy-S
+Cedecea lapagei,30,pupae-0gy-NS
+Cedecea lapagei,30,pupae-50gy-S
+Cedecea lapagei,30,pupae-50gy-NS
+Cedecea lapagei,30,pupae-100gy-S
+Cedecea lapagei,30,pupae-100gy-NS
+Cedecea lapagei,20,Water
+Cedecea lapagei,40,Slurry
+Cedecea lapagei,40,adult 0gy-S
+Cedecea lapagei,40,adult-0gy-NS
+Cedecea lapagei,35,adult-50gy-S
+Cedecea lapagei,10,adult-50gy-NS
+Cedecea lapagei,30,adult-100gy-S
+Cedecea lapagei,5,adult-100gy-NS
+Comamonas sp,10,pupae 0gy-S
+Comamonas sp,10,pupae-0gy-NS
+Comamonas sp,10,pupae-50gy-S
+Comamonas sp,10,pupae-50gy-NS
+Comamonas sp,10,pupae-100gy-S
+Comamonas sp,10,pupae-100gy-NS
+Comamonas sp,3,Water
+Comamonas sp,12,Slurry
+Comamonas sp,10,adult 0gy-S
+Comamonas sp,10,adult-0gy-NS
+Comamonas sp,10,adult-50gy-S
+Comamonas sp,3,adult-50gy-NS
+Comamonas sp,10,adult-100gy-S
+Comamonas sp,0,adult-100gy-NS
+Enterobacter amnigenus,50,pupae 0gy-S
+Enterobacter amnigenus,50,pupae-0gy-NS
+Enterobacter amnigenus,50,pupae-50gy-S
+Enterobacter amnigenus,50,pupae-50gy-NS
+Enterobacter amnigenus,50,pupae-100gy-S
+Enterobacter amnigenus,50,pupae-100gy-NS
+Enterobacter amnigenus,10,Water
+Enterobacter amnigenus,76,Slurry
+Enterobacter amnigenus,70,adult 0gy-S
+Enterobacter amnigenus,70,adult-0gy-NS
+Enterobacter amnigenus,67,adult-50gy-S
+Enterobacter amnigenus,30,adult-50gy-NS
+Enterobacter amnigenus,50,adult-100gy-S
+Enterobacter amnigenus,13,adult-100gy-NS
+Enterobacter cloacae,49,pupae 0gy-S
+Enterobacter cloacae,49,pupae-0gy-NS
+Enterobacter cloacae,48,pupae-50gy-S
+Enterobacter cloacae,47,pupae-50gy-NS
+Enterobacter cloacae,48,pupae-100gy-S
+Enterobacter cloacae,49,pupae-100gy-NS
+Enterobacter cloacae,15,Water
+Enterobacter cloacae,49,Slurry
+Enterobacter cloacae,50,adult 0gy-S
+Enterobacter cloacae,49,adult-0gy-NS
+Enterobacter cloacae,48,adult-50gy-S
+Enterobacter cloacae,12,adult-50gy-NS
+Enterobacter cloacae,46,adult-100gy-S
+Enterobacter cloacae,0,adult-100gy-NS
+Enterobacter ludwigii,120,pupae 0gy-S
+Enterobacter ludwigii,120,pupae-0gy-NS
+Enterobacter ludwigii,123,pupae-50gy-S
+Enterobacter ludwigii,122,pupae-50gy-NS
+Enterobacter ludwigii,121,pupae-100gy-S
+Enterobacter ludwigii,130,pupae-100gy-NS
+Enterobacter ludwigii,12,Water
+Enterobacter ludwigii,150,Slurry
+Enterobacter ludwigii,140,adult 0gy-S
+Enterobacter ludwigii,130,adult-0gy-NS
+Enterobacter ludwigii,145,adult-50gy-S
+Enterobacter ludwigii,43,adult-50gy-NS
+Enterobacter ludwigii,90,adult-100gy-S
+Enterobacter ludwigii,12,adult-100gy-NS
+Enterobacter sp,4,pupae 0gy-S
+Enterobacter sp,5,pupae-0gy-NS
+Enterobacter sp,5,pupae-50gy-S
+Enterobacter sp,3,pupae-50gy-NS
+Enterobacter sp,4,pupae-100gy-S
+Enterobacter sp,3,pupae-100gy-NS
+Enterobacter sp,12,Water
+Enterobacter sp,31,Slurry
+Enterobacter sp,34,adult 0gy-S
+Enterobacter sp,34,adult-0gy-NS
+Enterobacter sp,35,adult-50gy-S
+Enterobacter sp,2,adult-50gy-NS
+Enterobacter sp,34,adult-100gy-S
+Enterobacter sp,0,adult-100gy-NS
+Enterobacteriaceae sp,68,pupae 0gy-S
+Enterobacteriaceae sp,68,pupae-0gy-NS
+Enterobacteriaceae sp,69,pupae-50gy-S
+Enterobacteriaceae sp,70,pupae-50gy-NS
+Enterobacteriaceae sp,69,pupae-100gy-S
+Enterobacteriaceae sp,68,pupae-100gy-NS
+Enterobacteriaceae sp,10,Water
+Enterobacteriaceae sp,75,Slurry
+Enterobacteriaceae sp,70,adult 0gy-S
+Enterobacteriaceae sp,75,adult-0gy-NS
+Enterobacteriaceae sp,72,adult-50gy-S
+Enterobacteriaceae sp,30,adult-50gy-NS
+Enterobacteriaceae sp,76,adult-100gy-S
+Enterobacteriaceae sp,7,adult-100gy-NS
+Escherichia coli,68,pupae 0gy-S
+Escherichia coli,68,pupae-0gy-NS
+Escherichia coli,69,pupae-50gy-S
+Escherichia coli,70,pupae-50gy-NS
+Escherichia coli,69,pupae-100gy-S
+Escherichia coli,68,pupae-100gy-NS
+Escherichia coli,10,Water
+Escherichia coli,75,Slurry
+Escherichia coli,70,adult 0gy-S
+Escherichia coli,75,adult-0gy-NS
+Escherichia coli,72,adult-50gy-S
+Escherichia coli,30,adult-50gy-NS
+Escherichia coli,76,adult-100gy-S
+Escherichia coli,7,adult-100gy-NS
+EspZ,68,pupae 0gy-S
+EspZ,68,pupae-0gy-NS
+EspZ,69,pupae-50gy-S
+EspZ,70,pupae-50gy-NS
+EspZ,69,pupae-100gy-S
+EspZ,68,pupae-100gy-NS
+EspZ,10,Water
+EspZ,75,Slurry
+EspZ,70,adult 0gy-S
+EspZ,75,adult-0gy-NS
+EspZ,72,adult-50gy-S
+EspZ,30,adult-50gy-NS
+EspZ,76,adult-100gy-S
+EspZ,7,adult-100gy-NS
+Ewingella americana,0,pupae 0gy-S
+Ewingella americana,0,pupae-0gy-NS
+Ewingella americana,0,pupae-50gy-S
+Ewingella americana,0,pupae-50gy-NS
+Ewingella americana,0,pupae-100gy-S
+Ewingella americana,0,pupae-100gy-NS
+Ewingella americana,0,Water
+Ewingella americana,15,Slurry
+Ewingella americana,14,adult 0gy-S
+Ewingella americana,15,adult-0gy-NS
+Ewingella americana,14,adult-50gy-S
+Ewingella americana,0,adult-50gy-NS
+Ewingella americana,15,adult-100gy-S
+Ewingella americana,0,adult-100gy-NS
+Proteus sp,65,pupae 0gy-S
+Proteus sp,64,pupae-0gy-NS
+Proteus sp,63,pupae-50gy-S
+Proteus sp,65,pupae-50gy-NS
+Proteus sp,66,pupae-100gy-S
+Proteus sp,64,pupae-100gy-NS
+Proteus sp,10,Water
+Proteus sp,150,Slurry
+Proteus sp,120,adult 0gy-S
+Proteus sp,130,adult-0gy-NS
+Proteus sp,124,adult-50gy-S
+Proteus sp,10,adult-50gy-NS
+Proteus sp,134,adult-100gy-S
+Proteus sp,5,adult-100gy-NS
+Pseudomonas aeruginosa,22,pupae 0gy-S
+Pseudomonas aeruginosa,21,pupae-0gy-NS
+Pseudomonas aeruginosa,20,pupae-50gy-S
+Pseudomonas aeruginosa,22,pupae-50gy-NS
+Pseudomonas aeruginosa,22,pupae-100gy-S
+Pseudomonas aeruginosa,21,pupae-100gy-NS
+Pseudomonas aeruginosa,40,Water
+Pseudomonas aeruginosa,10,Slurry
+Pseudomonas aeruginosa,10,adult 0gy-S
+Pseudomonas aeruginosa,12,adult-0gy-NS
+Pseudomonas aeruginosa,10,adult-50gy-S
+Pseudomonas aeruginosa,80,adult-50gy-NS
+Pseudomonas aeruginosa,11,adult-100gy-S
+Pseudomonas aeruginosa,120,adult-100gy-NS
+Pseudomonas rhodesiae,22,pupae 0gy-S
+Pseudomonas rhodesiae,21,pupae-0gy-NS
+Pseudomonas rhodesiae,20,pupae-50gy-S
+Pseudomonas rhodesiae,22,pupae-50gy-NS
+Pseudomonas rhodesiae,22,pupae-100gy-S
+Pseudomonas rhodesiae,21,pupae-100gy-NS
+Pseudomonas rhodesiae,40,Water
+Pseudomonas rhodesiae,5,Slurry
+Pseudomonas rhodesiae,5,adult 0gy-S
+Pseudomonas rhodesiae,6,adult-0gy-NS
+Pseudomonas rhodesiae,10,adult-50gy-S
+Pseudomonas rhodesiae,130,adult-50gy-NS
+Pseudomonas rhodesiae,11,adult-100gy-S
+Pseudomonas rhodesiae,150,adult-100gy-NS
+Pseudomonas stutzeri,22,pupae 0gy-S
+Pseudomonas stutzeri,21,pupae-0gy-NS
+Pseudomonas stutzeri,20,pupae-50gy-S
+Pseudomonas stutzeri,22,pupae-50gy-NS
+Pseudomonas stutzeri,22,pupae-100gy-S
+Pseudomonas stutzeri,21,pupae-100gy-NS
+Pseudomonas stutzeri,300,Water
+Pseudomonas stutzeri,5,Slurry
+Pseudomonas stutzeri,5,adult 0gy-S
+Pseudomonas stutzeri,6,adult-0gy-NS
+Pseudomonas stutzeri,10,adult-50gy-S
+Pseudomonas stutzeri,200,adult-50gy-NS
+Pseudomonas stutzeri,11,adult-100gy-S
+Pseudomonas stutzeri,300,adult-100gy-NS
+Serratia marcescens,12,pupae 0gy-S
+Serratia marcescens,12,pupae-0gy-NS
+Serratia marcescens,10,pupae-50gy-S
+Serratia marcescens,11,pupae-50gy-NS
+Serratia marcescens,12,pupae-100gy-S
+Serratia marcescens,10,pupae-100gy-NS
+Serratia marcescens,70,Water
+Serratia marcescens,3,Slurry
+Serratia marcescens,5,adult 0gy-S
+Serratia marcescens,4,adult-0gy-NS
+Serratia marcescens,10,adult-50gy-S
+Serratia marcescens,100,adult-50gy-NS
+Serratia marcescens,12,adult-100gy-S
+Serratia marcescens,150,adult-100gy-NS
+Vagococcus salmoninarium,12,pupae 0gy-S
+Vagococcus salmoninarium,12,pupae-0gy-NS
+Vagococcus salmoninarium,10,pupae-50gy-S
+Vagococcus salmoninarium,11,pupae-50gy-NS
+Vagococcus salmoninarium,12,pupae-100gy-S
+Vagococcus salmoninarium,10,pupae-100gy-NS
+Vagococcus salmoninarium,70,Water
+Vagococcus salmoninarium,3,Slurry
+Vagococcus salmoninarium,5,adult 0gy-S
+Vagococcus salmoninarium,4,adult-0gy-NS
+Vagococcus salmoninarium,10,adult-50gy-S
+Vagococcus salmoninarium,120,adult-50gy-NS
+Vagococcus salmoninarium,12,adult-100gy-S
+Vagococcus salmoninarium,120,adult-100gy-NS
+Wigglesworthia glossinidia,0,pupae 0gy-S
+Wigglesworthia glossinidia,0,pupae-0gy-NS
+Wigglesworthia glossinidia,0,pupae-50gy-S
+Wigglesworthia glossinidia,0,pupae-50gy-NS
+Wigglesworthia glossinidia,0,pupae-100gy-S
+Wigglesworthia glossinidia,0,pupae-100gy-NS
+Wigglesworthia glossinidia,0,Water
+Wigglesworthia glossinidia,0,Slurry
+Wigglesworthia glossinidia,0,adult 0gy-S
+Wigglesworthia glossinidia,0,adult-0gy-NS
+Wigglesworthia glossinidia,0,adult-50gy-S
+Wigglesworthia glossinidia,0,adult-50gy-NS
+Wigglesworthia glossinidia,0,adult-100gy-S
+Wigglesworthia glossinidia,0,adult-100gy-NS
+Wolbachia - wAlbB,0,pupae 0gy-S
+Wolbachia - wAlbB,0,pupae-0gy-NS
+Wolbachia - wAlbB,0,pupae-50gy-S
+Wolbachia - wAlbB,0,pupae-50gy-NS
+Wolbachia - wAlbB,0,pupae-100gy-S
+Wolbachia - wAlbB,0,pupae-100gy-NS
+Wolbachia - wAlbB,0,Water
+Wolbachia - wAlbB,0,Slurry
+Wolbachia - wAlbB,0,adult 0gy-S
+Wolbachia - wAlbB,0,adult-0gy-NS
+Wolbachia - wAlbB,0,adult-50gy-S
+Wolbachia - wAlbB,0,adult-50gy-NS
+Wolbachia - wAlbB,0,adult-100gy-S
+Wolbachia - wAlbB,0,adult-100gy-NS
+Wolbachia - wMel,0,pupae 0gy-S
+Wolbachia - wMel,0,pupae-0gy-NS
+Wolbachia - wMel,0,pupae-50gy-S
+Wolbachia - wMel,0,pupae-50gy-NS
+Wolbachia - wMel,0,pupae-100gy-S
+Wolbachia - wMel,0,pupae-100gy-NS
+Wolbachia - wMel,0,Water
+Wolbachia - wMel,0,Slurry
+Wolbachia - wMel,0,adult 0gy-S
+Wolbachia - wMel,0,adult-0gy-NS
+Wolbachia - wMel,0,adult-50gy-S
+Wolbachia - wMel,0,adult-50gy-NS
+Wolbachia - wMel,0,adult-100gy-S
+Wolbachia - wMel,0,adult-100gy-NS
+Wolbachia - wMelPop,0,pupae 0gy-S
+Wolbachia - wMelPop,0,pupae-0gy-NS
+Wolbachia - wMelPop,0,pupae-50gy-S
+Wolbachia - wMelPop,0,pupae-50gy-NS
+Wolbachia - wMelPop,0,pupae-100gy-S
+Wolbachia - wMelPop,0,pupae-100gy-NS
+Wolbachia - wMelPop,0,Water
+Wolbachia - wMelPop,0,Slurry
+Wolbachia - wMelPop,0,adult 0gy-S
+Wolbachia - wMelPop,0,adult-0gy-NS
+Wolbachia - wMelPop,0,adult-50gy-S
+Wolbachia - wMelPop,0,adult-50gy-NS
+Wolbachia - wMelPop,0,adult-100gy-S
+Wolbachia - wMelPop,0,adult-100gy-NS
+Wolbachia - wMelPop-CLA,0,pupae 0gy-S
+Wolbachia - wMelPop-CLA,0,pupae-0gy-NS
+Wolbachia - wMelPop-CLA,0,pupae-50gy-S
+Wolbachia - wMelPop-CLA,0,pupae-50gy-NS
+Wolbachia - wMelPop-CLA,0,pupae-100gy-S
+Wolbachia - wMelPop-CLA,0,pupae-100gy-NS
+Wolbachia - wMelPop-CLA,0,Water
+Wolbachia - wMelPop-CLA,0,Slurry
+Wolbachia - wMelPop-CLA,0,adult 0gy-S
+Wolbachia - wMelPop-CLA,0,adult-0gy-NS
+Wolbachia - wMelPop-CLA,0,adult-50gy-S
+Wolbachia - wMelPop-CLA,0,adult-50gy-NS
+Wolbachia - wMelPop-CLA,0,adult-100gy-S
+Wolbachia - wMelPop-CLA,0,adult-100gy-NS
+Xanthomonas maltophilia,10,pupae 0gy-S
+Xanthomonas maltophilia,10,pupae-0gy-NS
+Xanthomonas maltophilia,12,pupae-50gy-S
+Xanthomonas maltophilia,13,pupae-50gy-NS
+Xanthomonas maltophilia,11,pupae-100gy-S
+Xanthomonas maltophilia,12,pupae-100gy-NS
+Xanthomonas maltophilia,5,Water
+Xanthomonas maltophilia,40,Slurry
+Xanthomonas maltophilia,34,adult 0gy-S
+Xanthomonas maltophilia,30,adult-0gy-NS
+Xanthomonas maltophilia,35,adult-50gy-S
+Xanthomonas maltophilia,2,adult-50gy-NS
+Xanthomonas maltophilia,32,adult-100gy-S
+Xanthomonas maltophilia,0,adult-100gy-NS
